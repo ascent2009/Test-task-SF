@@ -1,0 +1,260 @@
+@font-face {
+    font-family: 'Proxima Nova Regular';
+    src: url('../Fonts/ProximaNova.ttf');
+    font-style: normal;
+    }
+
+body {
+    box-sizing: border-box;
+    background: #E5E5E5;
+    margin: 0;
+}
+
+.header {
+    width: 100vx;
+    min-height: 80px;
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.header-textblock {
+    display: flex;
+    align-items: center;
+    margin-left: 142px;
+}
+
+.header-vertical {
+    background: #D7D7D7;
+    border-radius: 2px;
+    margin-right: 15px;
+    align-items: center;
+}
+
+.header-title {
+    font-family: "Proxima Nova Regular";
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+}
+
+.header-photoblock {
+    margin-right: 152px;
+}
+
+.header-photo__bkgr {
+    border-radius: 50px;
+    height: 35px;
+    width: 35px;
+    background-color: #E6E8F9;
+}
+
+.header-bottom__bkgr {
+    width: 100%;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-info {
+    position: absolute;
+    width: 352px;
+    height: 448px;
+    left: 7%;
+    top: 20%;
+    background: #FFFFFF;
+    border: 1px solid #E7E7E7;
+    border-radius: 10px;
+    font-family: 'Proxima Nova Regular';
+}
+
+.main-photoblock {
+    border-radius: 50%;
+    height: 116px;
+    width: 116px;
+    background-color: #E6E8F9;
+    margin: 59px auto 37px;
+}
+
+.main-photo {
+    position: absolute;
+    left: 35.5%;
+    top: 17%;
+    height: 101px;
+    width: 101px;
+}
+
+.name {
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+.vacancy {
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 11px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #A9A9A9;
+}
+
+.main-counterblock {
+    margin: 42px 21px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 146px;
+    height: 68px;
+    background: #FFFFFF;
+    border-radius: 7px;
+    margin-right: 6px;
+    margin-left: 6px;
+    
+}
+
+.counter-vertical {
+    width: 1px;
+    height: 28px;
+    background: #DFDFDF;
+    border-radius: 4px;
+    align-self: center;
+}
+
+.main-counter__value {
+    margin: 12px auto;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 70%;
+    text-align: center;
+    color: #000000;
+}
+
+.main-counter__label {
+    margin: 0 auto;
+    height: 11px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 70%;
+    text-align: center;
+    color: #A9A9A9;
+}
+
+.main-edit_link {
+    width: 304px;
+    height: 42px;
+    margin: 15px auto;
+    background: #F2F2F2;
+    border-radius: 10px;
+}
+
+.edit-profile {
+    display: flex;
+    width: 190px;
+    height: 12px;
+    margin: auto;
+    padding-top: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    color: #255DEF;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.edit-profile:hover {
+    color: #05153d;
+    transition: 0.5s;
+}
+
+.main-part {
+    font-family: 'Proxima Nova Regular';
+    width: 50%;
+    height: 2154px;
+    background: #FFFFFF;
+    border: 1px solid #E7E7E7;
+    border-radius: 10px;
+    margin: 27px auto;
+    z-index: 1;
+}
+
+.vacancy-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 35px auto;
+    width: 90%;
+}
+
+.main-title {
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 70%;
+    color: #000000;
+}
+
+.edit-vacancy {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 70%;
+    color: #2C5DDF;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.edit-vacancy:hover {
+    color: #05153d;
+    transition: 0.5s;
+}
+
+.main-params {
+    width: 90%;
+    height: 217px;
+    margin: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 50px -5px rgba(33, 35, 40, 0.07);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.param {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+    border-bottom: 1px solid #E8E8E8;
+    border-radius: 7px;
+}
+
+.param:last-child {
+    border-bottom: none;
+}
+
+.param-name {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 70%;
+    text-align: center;
+    color: #000000;
+}
+
+.param-value {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 70%;
+    text-align: right;
+}
